@@ -1,0 +1,30 @@
+{
+  "name": "mount-royal-tilt-flow",
+  "version": "1.0.0",
+  "description": "Node-Red flow for Mount Royal inplementation of tilt's flow code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aws s3 cp ./flow-hdmi.json s3://mount-royal-brewing-hydrometer-software"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigsidcarlson/mount-royal-tilt-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigsidcarlson/mount-royal-tilt-flow/issues"
+  },
+  "homepage": "https://github.com/craigsidcarlson/mount-royal-tilt-flow#readme",
+  "dependencies": {
+    "node-red": "^1.0.6",
+    "node-red-contrib-ibm-watson-iot": "^0.2.8",
+    "node-red-contrib-play-audio": "^2.5.0",
+    "node-red-dashboard": "^2.22.1",
+    "node-red-node-ping": "^0.2.0",
+    "node-red-node-random": "^0.2.0",
+    "node-red-node-serialport": "^0.10.3",
+    "node-red-node-smooth": "^0.1.2"
+  }
+}
