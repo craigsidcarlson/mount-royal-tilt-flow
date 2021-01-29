@@ -21,7 +21,7 @@
     "node-red": "^1.0.6",
     "node-red-contrib-ibm-watson-iot": "^0.2.8",
     "node-red-contrib-play-audio": "^2.5.0",
-    "node-red-dashboard": "^2.22.1",
+    "node-red-dashboard": "^2.26.2",
     "node-red-node-ping": "^0.2.0",
     "node-red-node-random": "^0.2.0",
     "node-red-node-serialport": "^0.10.3",
