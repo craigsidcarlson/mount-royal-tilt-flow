@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/craigsidcarlson/mount-royal-tilt-flow#readme",
   "dependencies": {
-    "node-red": "^1.0.6",
+    "node-red": "^3.0.2",
     "node-red-contrib-ibm-watson-iot": "^0.2.8",
     "node-red-contrib-play-audio": "^2.5.0",
     "node-red-dashboard": "^2.22.1",
